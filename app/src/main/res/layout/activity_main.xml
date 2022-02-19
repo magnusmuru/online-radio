@@ -18,7 +18,8 @@
             android:layout_height="150dp"
             android:layout_centerInParent="true"
             android:contentDescription="@string/raadio_kadi_logo"
-            app:srcCompat="@drawable/kadi_logo" />
+            app:srcCompat="@drawable/kadi_logo"
+            tools:ignore="ImageContrastCheck" />
     </RelativeLayout>
 
     <Button
@@ -41,11 +42,11 @@
         android:id="@+id/radioProgress"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_below="@+id/buttonPlay"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="150dp"
         android:indeterminateTint="@color/radio_secondary"
         android:visibility="invisible" />
